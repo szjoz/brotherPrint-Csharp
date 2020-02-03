@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelPrinterExample", "LabelPrinterExample\LabelPrinterExample.csproj", "{72EBB08F-97D0-4E87-8621-5C6AB43CD78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelPrinter.Lib", "LabelPrinter\LabelPrinter.Lib.csproj", "{F2468E7B-9654-4400-B681-9574AD92EBB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72EBB08F-97D0-4E87-8621-5C6AB43CD78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EBB08F-97D0-4E87-8621-5C6AB43CD78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EBB08F-97D0-4E87-8621-5C6AB43CD78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EBB08F-97D0-4E87-8621-5C6AB43CD78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2468E7B-9654-4400-B681-9574AD92EBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2468E7B-9654-4400-B681-9574AD92EBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2468E7B-9654-4400-B681-9574AD92EBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2468E7B-9654-4400-B681-9574AD92EBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3ADBA87-AB7C-46CD-9869-19039567E710}
+	EndGlobalSection
+EndGlobal
