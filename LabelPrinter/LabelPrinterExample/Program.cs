@@ -12,8 +12,8 @@ namespace LabelPrinterExample
         {
             Console.WriteLine("Hello in Brother Printer Example");
 
-            LabelPrinter.Lib.BrotherPrint brother = new LabelPrinter.Lib.BrotherPrint("192.168.100.109", "9100"); //Set Printer IP Addresss and Port. Default Port is 9100.
-            //LabelPrinter.Lib.BrotherPrint brother = new LabelPrinter.Lib.BrotherPrint("COM6", 9600); //Set Printer Serial Port Name and Baud Rate. Default Port is 9600.
+            //LabelPrinter.Lib.BrotherPrint brother = new LabelPrinter.Lib.BrotherPrint("192.168.100.109", "9100"); //Set Printer IP Addresss and Port. Default Port is 9100.
+            LabelPrinter.Lib.BrotherPrint brother = new LabelPrinter.Lib.BrotherPrint("COM3", 9600); //Set Printer Serial Port Name and Baud Rate. Default Port is 9600.
 
             brother.Open(); // Open ports
 

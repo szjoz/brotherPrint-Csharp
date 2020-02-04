@@ -387,7 +387,7 @@ namespace LabelPrinter.Lib
                     {
                         Console.WriteLine("Requesting: Length of received data is mismatch: Received:{0} , To Read:{1}", numOfbytes, bytesToRead);
                         
-                        return buf;
+                        return null;
                     }
                     else
                     {
@@ -400,7 +400,7 @@ namespace LabelPrinter.Lib
                 {
                     Console.WriteLine("Requesting: Serial exception {0}", e.ToString());
 
-                    return buf;
+                    return null;
                 }
             }
 
